@@ -1,0 +1,25 @@
+/* Header.css */
+.navbar {
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-left: 15px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-paragraph {
+    margin-bottom: 15px;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
