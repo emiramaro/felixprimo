@@ -1,23 +1,37 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Team from './components/Team';
+import Profile from './components/Profile';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import SupportedBy from './components/SupportedBy';
+import './App.css';
+
+function Home() {
+  return (
+    <div>
+      <About />
+      <Team />
+      <Work />
+      <SupportedBy />
+      <Contact />
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main className="container mt-4">
-        <About />
-        <Team />
-        <Work />
-        <Contact />
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/profile/:id" element={<Profile />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

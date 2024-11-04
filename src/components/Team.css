@@ -1,0 +1,22 @@
+/* Team.css */
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #666;
+  }

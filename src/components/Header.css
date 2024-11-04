@@ -1,6 +1,7 @@
 /* Header.css */
 .navbar {
     font-family: 'Helvetica', sans-serif;
+    margin-bottom: 0; /* Remove bottom margin */
   }
   
   .navbar-brand {
