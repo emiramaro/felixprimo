@@ -2,6 +2,7 @@
 .navbar {
     font-family: 'Helvetica', sans-serif;
     margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
   }
   
   .navbar-brand {

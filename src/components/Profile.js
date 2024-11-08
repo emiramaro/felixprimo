@@ -10,8 +10,9 @@ const members = [
   { name: 'Felipe Ramirez, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-2', bio: 'Bio for Felipe Ramirez, MD' },
   { name: 'Florent Tixier, PhD', role: 'Sr. Radiomics and AI Engineer', image: 'https://via.placeholder.com/150', id: 'member-3', bio: 'Bio for Florent Tixier, PhD' },
   { name: 'Mohammed Yasrab, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-4', bio: 'Bio for Mohammed Yasrab, MD' },
-  { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-5', bio: 'Bio for Hajra Arshad, MD' },
-  { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-6', bio: 'Bio for Emir Syailendra, MD, MS' },
+  { name: 'Charles Crawford', role: 'Research Assistant', image: 'https://via.placeholder.com/150', id: 'member-5', bio: 'Bio for Hajra Arshad, MD' },
+  { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-6', bio: 'Bio for Hajra Arshad, MD' },
+  { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-7', bio: 'Bio for Emir Syailendra, MD, MS' },
 ];
 
 function Profile() {

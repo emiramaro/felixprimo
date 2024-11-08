@@ -18,4 +18,31 @@
 
 #about {
   padding-top: 0; /* Remove top padding */
+  margin-top: 0; /* Remove top margin */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Add space above the image */
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-block {
+  display: block;
+}
+
+.description {
+  font-family: 'Poppins', serif; /* Use a common aesthetic font */
+  font-size: 1rem; /* Increase font size for better readability */
+  letter-spacing: 2px; /* Add letter spacing */
+  margin-top: 20px; /* Add space above the description */
+  margin-bottom: 20px; /* Add space below the description */
+  line-height: 1.6; /* Improve readability */
+  font-style: italic; /* Add italic style */
 }

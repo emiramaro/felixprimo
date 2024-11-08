@@ -1,0 +1,42 @@
+/* ResearchList.css */
+.section {
+    padding: 50px 0;
+    margin: 0; /* Remove margin */
+  }
+  
+  .section:nth-child(odd) {
+    background-color: #f8f9fa; /* Light grey background for odd sections */
+  }
+  
+  .section:nth-child(even) {
+    background-color: #ffffff; /* White background for even sections */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .research-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .research-list li {
+    margin-bottom: 20px;
+  }
+  
+  .research-list h3 {
+    font-family: 'Poppins', serif; /* Use a common aesthetic font */
+    font-size: 1.5rem; /* Increase font size for better readability */
+    letter-spacing: 1px; /* Add letter spacing */
+    margin-top: 10px; /* Add space above the title */
+    margin-bottom: 10px; /* Add space below the title */
+    line-height: 1.4; /* Improve readability */
+  }
+  
+  .research-list p {
+    font-family: 'Poppins', serif; /* Use a common aesthetic font */
+    font-size: 1rem; /* Set font size for description */
+    letter-spacing: 0.5px; /* Add letter spacing */
+    line-height: 1.6; /* Improve readability */
+  }

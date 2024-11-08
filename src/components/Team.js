@@ -1,22 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Team.css';
+import placeholderImage from '../assets/images/stitch.jpg'; // Adjust the path as necessary
 
 function Team() {
   const pis = [
-    { name: 'Elliot K. Fishman, MD', role: 'Principal Investigator', image: 'https://via.placeholder.com/150', id: 'jane-doe' },
-    { name: 'Satomi Kawamoto, MD', role: 'Principal Investigator', image: 'https://via.placeholder.com/150', id: 'john-smit' },
-    { name: 'Linda Chu, MD', role: 'Principal Investigator', image: 'https://via.placeholder.com/150', id: 'satomi' },
+    { name: 'Elliot K. Fishman, MD', role: 'Principal Investigator', image: placeholderImage, id: 'jane-doe' },
+    { name: 'Satomi Kawamoto, MD', role: 'Principal Investigator', image: placeholderImage, id: 'john-smit' },
+    { name: 'Linda Chu, MD', role: 'Principal Investigator', image: placeholderImage, id: 'satomi' },
   ];
 
   const members = [
-    { name: 'Alejandro Blanco, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-1' },
-    { name: 'Felipe Ramirez, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-2' },
-    { name: 'Florent Tixier, PhD', role: 'Sr. Radiomics and AI Engineer', image: 'https://via.placeholder.com/150', id: 'member-3' },
-    { name: 'Mohammed Yasrab, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-4' },
-    { name: 'Charles Crawford, BS', role: 'Research Assistant', image: 'https://via.placeholder.com/150', id: 'member-5' },
-    { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-6' },
-    { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: 'https://via.placeholder.com/150', id: 'member-7' },
+    { name: 'Alejandro Blanco, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-1' },
+    { name: 'Felipe Ramirez, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-2' },
+    { name: 'Florent Tixier, PhD', role: 'Sr. Radiomics and AI Engineer', image: placeholderImage, id: 'member-3' },
+    { name: 'Mohammed Yasrab, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-4' },
+    { name: 'Charles Crawford, BS', role: 'Research Assistant', image: placeholderImage, id: 'member-5' },
+    { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-6' },
+    { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-7' },
+    { name: 'Taha Ahmed, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'member-8', alumni: true },
   ];
 
   return (
@@ -47,7 +49,7 @@ function Team() {
         <div className="row">
           {members.map((member) => (
             <div className="col-md-4" key={member.id}>
-              <div className="team-member">
+              <div className={`team-member ${member.alumni ? 'alumni' : ''}`}>
                 <Link to={`/profile/${member.id}`}>
                   <img src={member.image} alt={member.name} className="img-fluid rounded-circle" />
                 </Link>
