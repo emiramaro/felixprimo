@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Landing.css';
-import LandingImage from '../assets/images/landing.jpg'; // Adjust the path as necessary
+// import LandingImage from '../assets/images/landing.jpg'; // Adjust the path as necessary
 import PancreasVideo from '../assets/videos/pancreas.mp4'; // Adjust the path as necessary
 
 function Landing() {

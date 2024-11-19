@@ -12,6 +12,10 @@
   .nav-link {
     margin-left: 15px;
   }
+
+  .navbar-nav {
+    margin-left: 0; /* Ensure no left margin */
+  }
   
   .section-title {
     font-weight: bold;
