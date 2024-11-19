@@ -6,6 +6,12 @@ import elliot from '../assets/images/elliot-fishman.avif'
 import linda from '../assets/images/linda-chu.jpg'
 import satomi from '../assets/images/satomi-kawamoto.jpg'
 import steph from '../assets/images/steph-blackwood.jpg'
+import ale from '../assets/images/ale-blanco.jpg'
+import flo from '../assets/images/flo-tixier.jpg'
+import felipe from '../assets/images/felipe-ramirez.jpg'
+import charles from '../assets/images/charles-crawford.jpg'
+import hajra from '../assets/images/hajra-arshad.jpg'
+import emir from '../assets/images/emir-syailendra.jpg'
 
 function Team() {
   const pis = [
@@ -17,13 +23,13 @@ function Team() {
   const members = [
     { name: 'Stephanie Blackwood', role: 'Sr. Administrator', image: steph, id: 'steph-blackwood' },
     { name: 'Scott Graves', role: 'Dedicated Segmentator', image: placeholderImage, id: 'scott-graves' },
-    { name: 'Alejandro Blanco, MD', role: 'Research Associate', image: placeholderImage, id: 'ale-blanco' },
-    { name: 'Florent Tixier, PhD', role: 'Sr. Radiomics and AI Engineer', image: placeholderImage, id: 'flo-tixier' },
-    { name: 'Felipe Ramirez, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'felipe-ramirez' },
+    { name: 'Alejandro Blanco, MD', role: 'Research Associate', image: ale, id: 'ale-blanco' },
+    { name: 'Florent Tixier, PhD', role: 'Sr. Radiomics and AI Engineer', image: flo, id: 'flo-tixier' },
+    { name: 'Felipe Ramirez, MD', role: 'Post-doc Research Fellow', image: felipe, id: 'felipe-ramirez' },
     { name: 'Mohammed Yasrab, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'moh-yasrab' },
-    { name: 'Charles Crawford, BS', role: 'Research Assistant', image: placeholderImage, id: 'charles-crawford' },
-    { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'hajra-arshad' },
-    { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'emir-syailendra' },
+    { name: 'Charles Crawford, BS', role: 'Research Assistant', image: charles, id: 'charles-crawford' },
+    { name: 'Hajra Arshad, MD', role: 'Post-doc Research Fellow', image: hajra, id: 'hajra-arshad' },
+    { name: 'Emir Syailendra, MD, MS', role: 'Post-doc Research Fellow', image: emir, id: 'emir-syailendra' },
     { name: 'Taha Ahmed, MD', role: 'Post-doc Research Fellow', image: placeholderImage, id: 'taha-ahmed', alumni: true },
   ];
 
