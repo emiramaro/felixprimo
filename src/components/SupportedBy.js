@@ -20,7 +20,7 @@ function SupportedBy() {
             <div className="col-md-4" key={supporter.id}>
               <div className="supporter">
                 <img src={supporter.image} alt={supporter.name} className="img-fluid" />
-                <h3>{supporter.name}</h3>
+                {/* <h3>{supporter.name}</h3> */}
               </div>
             </div>
           ))}

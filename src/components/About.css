@@ -1,48 +1,25 @@
 /* About.css */
-.section {
-  padding: 50px 0;
-  margin: 0; /* Remove margin */
+.about-section {
+  margin: 0; /* Remove any default margin */
+  padding: 20px; /* Add padding as needed */
 }
 
-.section:nth-child(odd) {
-  background-color: #f8f9fa; /* Light grey background for odd sections */
-}
-
-.section:nth-child(even) {
-  background-color: #ffffff; /* White background for even sections */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .text-center {
   text-align: center;
 }
 
-#about {
-  padding-top: 0; /* Remove top padding */
-  margin-top: 0; /* Remove top margin */
-}
-
 .img-fluid {
   max-width: 100%;
   height: auto;
-  margin-top: 20px; /* Add space above the image */
-  margin-bottom: 20px; /* Add space below the image */
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.d-block {
-  display: block;
 }
 
 .description {
-  font-family: 'Poppins', serif; /* Use a common aesthetic font */
-  font-size: 1rem; /* Increase font size for better readability */
-  letter-spacing: 2px; /* Add letter spacing */
-  margin-top: 20px; /* Add space above the description */
-  margin-bottom: 20px; /* Add space below the description */
-  line-height: 1.6; /* Improve readability */
-  font-style: italic; /* Add italic style */
+  font-size: 1.2em;
+  margin-top: 20px;
 }
